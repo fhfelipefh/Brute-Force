@@ -62,4 +62,5 @@ while True:
         if clean_file == "y":
             with open("tried_passwords.txt",'w') as f:
                 clean_file.close()
+        print("leaving now...")
         break
